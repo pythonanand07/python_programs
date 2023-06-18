@@ -1,1 +1,10 @@
-anand
+//21CSL48--1a//
+x=int(input('Enter the number'))
+y=int(input('Enter the number'))
+z=int(input('Enter the number'))
+if x<y and x<z:
+    print('Avg=',(y+z)/2)
+if y<x and y<z:
+    print('Avg=',(x+z)/2)
+else:
+    print('Avg=',(x+y)/2)
