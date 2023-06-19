@@ -1,0 +1,14 @@
+n=int(input("Enter the number"))
+original=n
+rev=0
+while(n!=0):
+    rem=n%10
+    n=n//10
+    rev=rev*10+rem
+if(original==rev):
+    print("Given number is palindrome")
+else:
+    print("Given number is not palindrome")
+num=str(original)
+for i in range(10):
+    print("No. of ocurrence of ",i,"in",num,num.count(str(i)))
