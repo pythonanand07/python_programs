@@ -1,0 +1,6 @@
+name="Anand Kumar Jha"
+branch="CSE"
+age=20
+USN="1JS21CS023"
+print("My details are",name+branch+USN,age)
+print("CSEA"*2)
