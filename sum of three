@@ -1,0 +1,5 @@
+num1=float(input("Enter number one"))
+num2=float(input("Enter number two"))
+num3=float(input("Enter number three"))
+sum=num1+num2+num3
+print(sum)
